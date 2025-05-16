@@ -1,0 +1,356 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #007bff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header .logo h1 {
+    color: #fff;
+    margin-left: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://i.ibb.co/4tqN4tF/school-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Academic Programs Section */
+.academic-programs {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.academic-programs .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.academic-programs h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.program-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .program-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #caf0f8;
+    color: #03045e;
+    margin: 0;
+    padding: 0;
+}
+
+.latest-updates {
+    padding: 50px;
+    text-align: center;
+    background-color: #ade8f4;
+}
+
+.latest-updates h2 {
+    color: #0077b6;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.updates-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.update-item {
+    background-color: #90e0ef;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.update-item h3 {
+    color: #03045e;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.update-item .date {
+    font-size: 14px;
+    color: #023e8a;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.update-item .description {
+    margin-top: 10px;
+    color: #0077b6;
+    font-size: 16px;
+}
+
+.update-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #023e8a;
+}
+
+.contact-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-color: #caf0f8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item i {
+    font-size: 24px;
+    color: #0077b6;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-form {
+    background-color: #ade8f4;
+    padding: 30px;
+    border-radius: 8px;
+    margin-left: 40px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    color: #0077b6;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.vertical-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.vertical-form input, 
+.vertical-form textarea {
+    padding: 10px;
+    border: 1px solid #0077b6;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.vertical-form button {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.vertical-form button:hover {
+    background-color: #023e8a;
+}
+/* Footer Styling */
+.footer {
+    background-color: #023e8a;
+    color: #ffffff;
+    padding: 40px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer h3 {
+    color: #caf0f8;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul,
+.footer-contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li,
+.footer-contact ul li {
+    margin: 10px 0;
+}
+
+.footer-links ul li a,
+.footer-contact ul li a {
+    color: #90e0ef;
+    text-decoration: none;
+}
+
+.footer-contact ul li i {
+    margin-right: 10px;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    color: #90e0ef;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer-map iframe {
+    border-radius: 10px;
+}
+
+.footer-social a:hover {
+    color: #00b4d8;
+}
+
+
+

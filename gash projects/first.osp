@@ -1,0 +1,2130 @@
+{
+ "id": "GG6TEC8XIR",
+ "fps": {
+  "num": 30,
+  "den": 1
+ },
+ "display_ratio": {
+  "num": 16,
+  "den": 9
+ },
+ "pixel_ratio": {
+  "num": 1,
+  "den": 1
+ },
+ "width": 1280,
+ "height": 720,
+ "sample_rate": 48000,
+ "channels": 2,
+ "channel_layout": 3,
+ "settings": {},
+ "clips": [],
+ "effects": [],
+ "files": [],
+ "duration": 300,
+ "scale": 18.18779404651981,
+ "tick_pixels": 100,
+ "playhead_position": 0,
+ "profile": "HD 720p 30 fps",
+ "layers": [
+  {
+   "number": 23000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "C5134PQSO1"
+  },
+  {
+   "number": 22000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "FIFBH8CB01"
+  },
+  {
+   "number": 21000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "PJXX103O2L"
+  },
+  {
+   "number": 20000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "I2WDO64N3E"
+  },
+  {
+   "number": 19000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "32W5Q48PV2"
+  },
+  {
+   "number": 18000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "G0CSGNKNHK"
+  },
+  {
+   "number": 17000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "PFKV0Y7QJY"
+  },
+  {
+   "number": 16000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "6XSAUQX1P7"
+  },
+  {
+   "number": 15000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "POBDAQ2RAP"
+  },
+  {
+   "number": 14000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "RIQTXV2HPM"
+  },
+  {
+   "number": 13000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "EMO69FUFNV"
+  },
+  {
+   "number": 12000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "HC33X9WM26"
+  },
+  {
+   "number": 11000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "Q61FP3LXI6"
+  },
+  {
+   "number": 10000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "DJBJ3FF0WZ"
+  },
+  {
+   "number": 9000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "F6F3KKFO4A"
+  },
+  {
+   "number": 8000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "K6A0FHYGTG"
+  },
+  {
+   "number": 7000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "BST0IL7XTN"
+  },
+  {
+   "number": 6000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "KO1CVSTDFY"
+  },
+  {
+   "id": "L5",
+   "label": "",
+   "number": 5000000,
+   "y": 0,
+   "lock": false
+  },
+  {
+   "id": "L4",
+   "label": "",
+   "number": 4000000,
+   "y": 0,
+   "lock": false
+  },
+  {
+   "id": "L3",
+   "label": "",
+   "number": 3000000,
+   "y": 0,
+   "lock": false
+  },
+  {
+   "id": "L2",
+   "label": "",
+   "number": 2000000,
+   "y": 0,
+   "lock": false
+  },
+  {
+   "id": "L1",
+   "label": "",
+   "number": 1000000,
+   "y": 0,
+   "lock": false
+  },
+  {
+   "number": 24000000,
+   "y": 0,
+   "label": "",
+   "lock": false,
+   "id": "MXRB533C8N"
+  }
+ ],
+ "markers": [],
+ "progress": [],
+ "history": {
+  "undo": [
+   {
+    "type": "insert",
+    "key": [
+     "layers"
+    ],
+    "value": {
+     "number": 10000000,
+     "y": 0,
+     "label": "",
+     "lock": false,
+     "id": "DJBJ3FF0WZ"
+    },
+    "old_values": [
+     {
+      "number": 9000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "F6F3KKFO4A"
+     },
+     {
+      "number": 8000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "K6A0FHYGTG"
+     },
+     {
+      "number": 7000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "BST0IL7XTN"
+     },
+     {
+      "number": 6000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "KO1CVSTDFY"
+     },
+     {
+      "id": "L5",
+      "label": "",
+      "number": 5000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L4",
+      "label": "",
+      "number": 4000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L3",
+      "label": "",
+      "number": 3000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L2",
+      "label": "",
+      "number": 2000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L1",
+      "label": "",
+      "number": 1000000,
+      "y": 0,
+      "lock": false
+     }
+    ],
+    "transaction": "4c86d00a-5912-4ab8-b7de-092ceef66fad"
+   },
+   {
+    "type": "insert",
+    "key": [
+     "layers"
+    ],
+    "value": {
+     "number": 11000000,
+     "y": 0,
+     "label": "",
+     "lock": false,
+     "id": "Q61FP3LXI6"
+    },
+    "old_values": [
+     {
+      "number": 10000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "DJBJ3FF0WZ"
+     },
+     {
+      "number": 9000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "F6F3KKFO4A"
+     },
+     {
+      "number": 8000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "K6A0FHYGTG"
+     },
+     {
+      "number": 7000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "BST0IL7XTN"
+     },
+     {
+      "number": 6000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "KO1CVSTDFY"
+     },
+     {
+      "id": "L5",
+      "label": "",
+      "number": 5000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L4",
+      "label": "",
+      "number": 4000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L3",
+      "label": "",
+      "number": 3000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L2",
+      "label": "",
+      "number": 2000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L1",
+      "label": "",
+      "number": 1000000,
+      "y": 0,
+      "lock": false
+     }
+    ],
+    "transaction": "befe9779-c20b-4400-a9da-b2e2c52819fd"
+   },
+   {
+    "type": "insert",
+    "key": [
+     "layers"
+    ],
+    "value": {
+     "number": 12000000,
+     "y": 0,
+     "label": "",
+     "lock": false,
+     "id": "HC33X9WM26"
+    },
+    "old_values": [
+     {
+      "number": 11000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "Q61FP3LXI6"
+     },
+     {
+      "number": 10000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "DJBJ3FF0WZ"
+     },
+     {
+      "number": 9000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "F6F3KKFO4A"
+     },
+     {
+      "number": 8000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "K6A0FHYGTG"
+     },
+     {
+      "number": 7000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "BST0IL7XTN"
+     },
+     {
+      "number": 6000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "KO1CVSTDFY"
+     },
+     {
+      "id": "L5",
+      "label": "",
+      "number": 5000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L4",
+      "label": "",
+      "number": 4000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L3",
+      "label": "",
+      "number": 3000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L2",
+      "label": "",
+      "number": 2000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L1",
+      "label": "",
+      "number": 1000000,
+      "y": 0,
+      "lock": false
+     }
+    ],
+    "transaction": "aac1bd8e-6236-4c09-b7fa-da8753b1c19a"
+   },
+   {
+    "type": "insert",
+    "key": [
+     "layers"
+    ],
+    "value": {
+     "number": 13000000,
+     "y": 0,
+     "label": "",
+     "lock": false,
+     "id": "EMO69FUFNV"
+    },
+    "old_values": [
+     {
+      "number": 12000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "HC33X9WM26"
+     },
+     {
+      "number": 11000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "Q61FP3LXI6"
+     },
+     {
+      "number": 10000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "DJBJ3FF0WZ"
+     },
+     {
+      "number": 9000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "F6F3KKFO4A"
+     },
+     {
+      "number": 8000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "K6A0FHYGTG"
+     },
+     {
+      "number": 7000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "BST0IL7XTN"
+     },
+     {
+      "number": 6000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "KO1CVSTDFY"
+     },
+     {
+      "id": "L5",
+      "label": "",
+      "number": 5000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L4",
+      "label": "",
+      "number": 4000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L3",
+      "label": "",
+      "number": 3000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L2",
+      "label": "",
+      "number": 2000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L1",
+      "label": "",
+      "number": 1000000,
+      "y": 0,
+      "lock": false
+     }
+    ],
+    "transaction": "05ff0d26-3cce-4bb3-89cb-43e3b57362a9"
+   },
+   {
+    "type": "insert",
+    "key": [
+     "layers"
+    ],
+    "value": {
+     "number": 14000000,
+     "y": 0,
+     "label": "",
+     "lock": false,
+     "id": "RIQTXV2HPM"
+    },
+    "old_values": [
+     {
+      "number": 13000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "EMO69FUFNV"
+     },
+     {
+      "number": 12000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "HC33X9WM26"
+     },
+     {
+      "number": 11000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "Q61FP3LXI6"
+     },
+     {
+      "number": 10000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "DJBJ3FF0WZ"
+     },
+     {
+      "number": 9000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "F6F3KKFO4A"
+     },
+     {
+      "number": 8000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "K6A0FHYGTG"
+     },
+     {
+      "number": 7000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "BST0IL7XTN"
+     },
+     {
+      "number": 6000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "KO1CVSTDFY"
+     },
+     {
+      "id": "L5",
+      "label": "",
+      "number": 5000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L4",
+      "label": "",
+      "number": 4000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L3",
+      "label": "",
+      "number": 3000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L2",
+      "label": "",
+      "number": 2000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L1",
+      "label": "",
+      "number": 1000000,
+      "y": 0,
+      "lock": false
+     }
+    ],
+    "transaction": "b883ce76-3b33-4eb7-94e9-af194ca9f221"
+   },
+   {
+    "type": "insert",
+    "key": [
+     "layers"
+    ],
+    "value": {
+     "number": 15000000,
+     "y": 0,
+     "label": "",
+     "lock": false,
+     "id": "POBDAQ2RAP"
+    },
+    "old_values": [
+     {
+      "number": 14000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "RIQTXV2HPM"
+     },
+     {
+      "number": 13000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "EMO69FUFNV"
+     },
+     {
+      "number": 12000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "HC33X9WM26"
+     },
+     {
+      "number": 11000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "Q61FP3LXI6"
+     },
+     {
+      "number": 10000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "DJBJ3FF0WZ"
+     },
+     {
+      "number": 9000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "F6F3KKFO4A"
+     },
+     {
+      "number": 8000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "K6A0FHYGTG"
+     },
+     {
+      "number": 7000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "BST0IL7XTN"
+     },
+     {
+      "number": 6000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "KO1CVSTDFY"
+     },
+     {
+      "id": "L5",
+      "label": "",
+      "number": 5000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L4",
+      "label": "",
+      "number": 4000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L3",
+      "label": "",
+      "number": 3000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L2",
+      "label": "",
+      "number": 2000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L1",
+      "label": "",
+      "number": 1000000,
+      "y": 0,
+      "lock": false
+     }
+    ],
+    "transaction": "12fd5559-3cf1-4c65-a7fe-8c7d82561730"
+   },
+   {
+    "type": "insert",
+    "key": [
+     "layers"
+    ],
+    "value": {
+     "number": 16000000,
+     "y": 0,
+     "label": "",
+     "lock": false,
+     "id": "6XSAUQX1P7"
+    },
+    "old_values": [
+     {
+      "number": 15000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "POBDAQ2RAP"
+     },
+     {
+      "number": 14000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "RIQTXV2HPM"
+     },
+     {
+      "number": 13000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "EMO69FUFNV"
+     },
+     {
+      "number": 12000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "HC33X9WM26"
+     },
+     {
+      "number": 11000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "Q61FP3LXI6"
+     },
+     {
+      "number": 10000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "DJBJ3FF0WZ"
+     },
+     {
+      "number": 9000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "F6F3KKFO4A"
+     },
+     {
+      "number": 8000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "K6A0FHYGTG"
+     },
+     {
+      "number": 7000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "BST0IL7XTN"
+     },
+     {
+      "number": 6000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "KO1CVSTDFY"
+     },
+     {
+      "id": "L5",
+      "label": "",
+      "number": 5000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L4",
+      "label": "",
+      "number": 4000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L3",
+      "label": "",
+      "number": 3000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L2",
+      "label": "",
+      "number": 2000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L1",
+      "label": "",
+      "number": 1000000,
+      "y": 0,
+      "lock": false
+     }
+    ],
+    "transaction": "7559feb6-0c2e-41eb-87ff-3bc2bbd83cf5"
+   },
+   {
+    "type": "insert",
+    "key": [
+     "layers"
+    ],
+    "value": {
+     "number": 17000000,
+     "y": 0,
+     "label": "",
+     "lock": false,
+     "id": "PFKV0Y7QJY"
+    },
+    "old_values": [
+     {
+      "number": 16000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "6XSAUQX1P7"
+     },
+     {
+      "number": 15000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "POBDAQ2RAP"
+     },
+     {
+      "number": 14000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "RIQTXV2HPM"
+     },
+     {
+      "number": 13000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "EMO69FUFNV"
+     },
+     {
+      "number": 12000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "HC33X9WM26"
+     },
+     {
+      "number": 11000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "Q61FP3LXI6"
+     },
+     {
+      "number": 10000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "DJBJ3FF0WZ"
+     },
+     {
+      "number": 9000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "F6F3KKFO4A"
+     },
+     {
+      "number": 8000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "K6A0FHYGTG"
+     },
+     {
+      "number": 7000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "BST0IL7XTN"
+     },
+     {
+      "number": 6000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "KO1CVSTDFY"
+     },
+     {
+      "id": "L5",
+      "label": "",
+      "number": 5000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L4",
+      "label": "",
+      "number": 4000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L3",
+      "label": "",
+      "number": 3000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L2",
+      "label": "",
+      "number": 2000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L1",
+      "label": "",
+      "number": 1000000,
+      "y": 0,
+      "lock": false
+     }
+    ],
+    "transaction": "4dd99250-fb57-4e61-aa7a-cae208f52796"
+   },
+   {
+    "type": "insert",
+    "key": [
+     "layers"
+    ],
+    "value": {
+     "number": 18000000,
+     "y": 0,
+     "label": "",
+     "lock": false,
+     "id": "G0CSGNKNHK"
+    },
+    "old_values": [
+     {
+      "number": 17000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "PFKV0Y7QJY"
+     },
+     {
+      "number": 16000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "6XSAUQX1P7"
+     },
+     {
+      "number": 15000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "POBDAQ2RAP"
+     },
+     {
+      "number": 14000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "RIQTXV2HPM"
+     },
+     {
+      "number": 13000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "EMO69FUFNV"
+     },
+     {
+      "number": 12000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "HC33X9WM26"
+     },
+     {
+      "number": 11000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "Q61FP3LXI6"
+     },
+     {
+      "number": 10000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "DJBJ3FF0WZ"
+     },
+     {
+      "number": 9000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "F6F3KKFO4A"
+     },
+     {
+      "number": 8000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "K6A0FHYGTG"
+     },
+     {
+      "number": 7000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "BST0IL7XTN"
+     },
+     {
+      "number": 6000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "KO1CVSTDFY"
+     },
+     {
+      "id": "L5",
+      "label": "",
+      "number": 5000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L4",
+      "label": "",
+      "number": 4000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L3",
+      "label": "",
+      "number": 3000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L2",
+      "label": "",
+      "number": 2000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L1",
+      "label": "",
+      "number": 1000000,
+      "y": 0,
+      "lock": false
+     }
+    ],
+    "transaction": "fe11ccef-f9f2-49f5-a21a-0c8af1804679"
+   },
+   {
+    "type": "insert",
+    "key": [
+     "layers"
+    ],
+    "value": {
+     "number": 19000000,
+     "y": 0,
+     "label": "",
+     "lock": false,
+     "id": "32W5Q48PV2"
+    },
+    "old_values": [
+     {
+      "number": 18000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "G0CSGNKNHK"
+     },
+     {
+      "number": 17000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "PFKV0Y7QJY"
+     },
+     {
+      "number": 16000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "6XSAUQX1P7"
+     },
+     {
+      "number": 15000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "POBDAQ2RAP"
+     },
+     {
+      "number": 14000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "RIQTXV2HPM"
+     },
+     {
+      "number": 13000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "EMO69FUFNV"
+     },
+     {
+      "number": 12000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "HC33X9WM26"
+     },
+     {
+      "number": 11000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "Q61FP3LXI6"
+     },
+     {
+      "number": 10000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "DJBJ3FF0WZ"
+     },
+     {
+      "number": 9000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "F6F3KKFO4A"
+     },
+     {
+      "number": 8000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "K6A0FHYGTG"
+     },
+     {
+      "number": 7000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "BST0IL7XTN"
+     },
+     {
+      "number": 6000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "KO1CVSTDFY"
+     },
+     {
+      "id": "L5",
+      "label": "",
+      "number": 5000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L4",
+      "label": "",
+      "number": 4000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L3",
+      "label": "",
+      "number": 3000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L2",
+      "label": "",
+      "number": 2000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L1",
+      "label": "",
+      "number": 1000000,
+      "y": 0,
+      "lock": false
+     }
+    ],
+    "transaction": "8c3e13dc-56fb-4e37-965d-30b91e9c128f"
+   },
+   {
+    "type": "insert",
+    "key": [
+     "layers"
+    ],
+    "value": {
+     "number": 20000000,
+     "y": 0,
+     "label": "",
+     "lock": false,
+     "id": "I2WDO64N3E"
+    },
+    "old_values": [
+     {
+      "number": 19000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "32W5Q48PV2"
+     },
+     {
+      "number": 18000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "G0CSGNKNHK"
+     },
+     {
+      "number": 17000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "PFKV0Y7QJY"
+     },
+     {
+      "number": 16000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "6XSAUQX1P7"
+     },
+     {
+      "number": 15000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "POBDAQ2RAP"
+     },
+     {
+      "number": 14000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "RIQTXV2HPM"
+     },
+     {
+      "number": 13000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "EMO69FUFNV"
+     },
+     {
+      "number": 12000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "HC33X9WM26"
+     },
+     {
+      "number": 11000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "Q61FP3LXI6"
+     },
+     {
+      "number": 10000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "DJBJ3FF0WZ"
+     },
+     {
+      "number": 9000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "F6F3KKFO4A"
+     },
+     {
+      "number": 8000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "K6A0FHYGTG"
+     },
+     {
+      "number": 7000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "BST0IL7XTN"
+     },
+     {
+      "number": 6000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "KO1CVSTDFY"
+     },
+     {
+      "id": "L5",
+      "label": "",
+      "number": 5000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L4",
+      "label": "",
+      "number": 4000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L3",
+      "label": "",
+      "number": 3000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L2",
+      "label": "",
+      "number": 2000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L1",
+      "label": "",
+      "number": 1000000,
+      "y": 0,
+      "lock": false
+     }
+    ],
+    "transaction": "a4a25024-c0c1-42cd-94b1-f0b73301b73c"
+   },
+   {
+    "type": "insert",
+    "key": [
+     "layers"
+    ],
+    "value": {
+     "number": 21000000,
+     "y": 0,
+     "label": "",
+     "lock": false,
+     "id": "PJXX103O2L"
+    },
+    "old_values": [
+     {
+      "number": 20000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "I2WDO64N3E"
+     },
+     {
+      "number": 19000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "32W5Q48PV2"
+     },
+     {
+      "number": 18000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "G0CSGNKNHK"
+     },
+     {
+      "number": 17000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "PFKV0Y7QJY"
+     },
+     {
+      "number": 16000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "6XSAUQX1P7"
+     },
+     {
+      "number": 15000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "POBDAQ2RAP"
+     },
+     {
+      "number": 14000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "RIQTXV2HPM"
+     },
+     {
+      "number": 13000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "EMO69FUFNV"
+     },
+     {
+      "number": 12000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "HC33X9WM26"
+     },
+     {
+      "number": 11000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "Q61FP3LXI6"
+     },
+     {
+      "number": 10000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "DJBJ3FF0WZ"
+     },
+     {
+      "number": 9000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "F6F3KKFO4A"
+     },
+     {
+      "number": 8000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "K6A0FHYGTG"
+     },
+     {
+      "number": 7000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "BST0IL7XTN"
+     },
+     {
+      "number": 6000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "KO1CVSTDFY"
+     },
+     {
+      "id": "L5",
+      "label": "",
+      "number": 5000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L4",
+      "label": "",
+      "number": 4000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L3",
+      "label": "",
+      "number": 3000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L2",
+      "label": "",
+      "number": 2000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L1",
+      "label": "",
+      "number": 1000000,
+      "y": 0,
+      "lock": false
+     }
+    ],
+    "transaction": "cad7ab1a-2de5-4281-a4e6-0f1f9e02e0d2"
+   },
+   {
+    "type": "insert",
+    "key": [
+     "layers"
+    ],
+    "value": {
+     "number": 22000000,
+     "y": 0,
+     "label": "",
+     "lock": false,
+     "id": "FIFBH8CB01"
+    },
+    "old_values": [
+     {
+      "number": 21000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "PJXX103O2L"
+     },
+     {
+      "number": 20000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "I2WDO64N3E"
+     },
+     {
+      "number": 19000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "32W5Q48PV2"
+     },
+     {
+      "number": 18000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "G0CSGNKNHK"
+     },
+     {
+      "number": 17000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "PFKV0Y7QJY"
+     },
+     {
+      "number": 16000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "6XSAUQX1P7"
+     },
+     {
+      "number": 15000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "POBDAQ2RAP"
+     },
+     {
+      "number": 14000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "RIQTXV2HPM"
+     },
+     {
+      "number": 13000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "EMO69FUFNV"
+     },
+     {
+      "number": 12000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "HC33X9WM26"
+     },
+     {
+      "number": 11000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "Q61FP3LXI6"
+     },
+     {
+      "number": 10000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "DJBJ3FF0WZ"
+     },
+     {
+      "number": 9000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "F6F3KKFO4A"
+     },
+     {
+      "number": 8000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "K6A0FHYGTG"
+     },
+     {
+      "number": 7000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "BST0IL7XTN"
+     },
+     {
+      "number": 6000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "KO1CVSTDFY"
+     },
+     {
+      "id": "L5",
+      "label": "",
+      "number": 5000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L4",
+      "label": "",
+      "number": 4000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L3",
+      "label": "",
+      "number": 3000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L2",
+      "label": "",
+      "number": 2000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L1",
+      "label": "",
+      "number": 1000000,
+      "y": 0,
+      "lock": false
+     }
+    ],
+    "transaction": "f44375a3-72f8-46b7-9850-8fe93f04fb93"
+   },
+   {
+    "type": "insert",
+    "key": [
+     "layers"
+    ],
+    "value": {
+     "number": 23000000,
+     "y": 0,
+     "label": "",
+     "lock": false,
+     "id": "C5134PQSO1"
+    },
+    "old_values": [
+     {
+      "number": 22000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "FIFBH8CB01"
+     },
+     {
+      "number": 21000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "PJXX103O2L"
+     },
+     {
+      "number": 20000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "I2WDO64N3E"
+     },
+     {
+      "number": 19000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "32W5Q48PV2"
+     },
+     {
+      "number": 18000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "G0CSGNKNHK"
+     },
+     {
+      "number": 17000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "PFKV0Y7QJY"
+     },
+     {
+      "number": 16000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "6XSAUQX1P7"
+     },
+     {
+      "number": 15000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "POBDAQ2RAP"
+     },
+     {
+      "number": 14000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "RIQTXV2HPM"
+     },
+     {
+      "number": 13000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "EMO69FUFNV"
+     },
+     {
+      "number": 12000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "HC33X9WM26"
+     },
+     {
+      "number": 11000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "Q61FP3LXI6"
+     },
+     {
+      "number": 10000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "DJBJ3FF0WZ"
+     },
+     {
+      "number": 9000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "F6F3KKFO4A"
+     },
+     {
+      "number": 8000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "K6A0FHYGTG"
+     },
+     {
+      "number": 7000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "BST0IL7XTN"
+     },
+     {
+      "number": 6000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "KO1CVSTDFY"
+     },
+     {
+      "id": "L5",
+      "label": "",
+      "number": 5000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L4",
+      "label": "",
+      "number": 4000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L3",
+      "label": "",
+      "number": 3000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L2",
+      "label": "",
+      "number": 2000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L1",
+      "label": "",
+      "number": 1000000,
+      "y": 0,
+      "lock": false
+     }
+    ],
+    "transaction": "c4613ae6-51c8-41e9-aa07-baa681f35aa1"
+   },
+   {
+    "type": "insert",
+    "key": [
+     "layers"
+    ],
+    "value": {
+     "number": 24000000,
+     "y": 0,
+     "label": "",
+     "lock": false,
+     "id": "MXRB533C8N"
+    },
+    "old_values": [
+     {
+      "number": 23000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "C5134PQSO1"
+     },
+     {
+      "number": 22000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "FIFBH8CB01"
+     },
+     {
+      "number": 21000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "PJXX103O2L"
+     },
+     {
+      "number": 20000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "I2WDO64N3E"
+     },
+     {
+      "number": 19000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "32W5Q48PV2"
+     },
+     {
+      "number": 18000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "G0CSGNKNHK"
+     },
+     {
+      "number": 17000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "PFKV0Y7QJY"
+     },
+     {
+      "number": 16000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "6XSAUQX1P7"
+     },
+     {
+      "number": 15000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "POBDAQ2RAP"
+     },
+     {
+      "number": 14000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "RIQTXV2HPM"
+     },
+     {
+      "number": 13000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "EMO69FUFNV"
+     },
+     {
+      "number": 12000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "HC33X9WM26"
+     },
+     {
+      "number": 11000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "Q61FP3LXI6"
+     },
+     {
+      "number": 10000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "DJBJ3FF0WZ"
+     },
+     {
+      "number": 9000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "F6F3KKFO4A"
+     },
+     {
+      "number": 8000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "K6A0FHYGTG"
+     },
+     {
+      "number": 7000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "BST0IL7XTN"
+     },
+     {
+      "number": 6000000,
+      "y": 0,
+      "label": "",
+      "lock": false,
+      "id": "KO1CVSTDFY"
+     },
+     {
+      "id": "L5",
+      "label": "",
+      "number": 5000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L4",
+      "label": "",
+      "number": 4000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L3",
+      "label": "",
+      "number": 3000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L2",
+      "label": "",
+      "number": 2000000,
+      "y": 0,
+      "lock": false
+     },
+     {
+      "id": "L1",
+      "label": "",
+      "number": 1000000,
+      "y": 0,
+      "lock": false
+     }
+    ],
+    "transaction": "9365e5b1-e35a-4dd7-a18b-70af015ea877"
+   }
+  ],
+  "redo": []
+ },
+ "version": {
+  "openshot-qt": "3.2.1",
+  "libopenshot": "0.3.3"
+ }
+}

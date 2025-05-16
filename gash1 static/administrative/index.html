@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupe Scolaire Kiziguro TSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+     <!-- Header and Navigation -->
+     <header>
+        <div class="container">
+            <div class="logo">
+                <img src="../update/image/WhatsApp Image 2024-11-17 at 11.55.32_3b0a3dee.jpg" alt="Gs Kiziguro Tss Logo">
+                <h1>Gs Kiziguro Tss</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../try/dist/index.html">Home</a></li>
+                    <li><a href="../about/dist/index.html">About Us</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="../update/index.html">Updates</a></li>
+                    <li><a href="../service/index.html">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="../gs kiziguro view/index.html"> Gs-Kiziguro VIEW </a></li>
+
+                    <!-- javascript for tlanslater-->
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement(
+        {pageLanguage: 'en', includedLanguages: 'en,fr,rw', layout: google.translate.TranslateElement.InlineLayout.SIMPLE},
+        'google_translate_element'
+      );
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  
+
+
+  <!-- Language Switcher -->
+  <li id="google_translate_element">Hindura Ururimi</li>
+
+
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Banner Section -->
+    <section class="hero-banner">
+        <div class="container">
+            <h2>Gs Kiziguro Tss</h2>
+            <p>Offering top programs in various technical fields for student success.</p>
+        </div>
+    </section>
+
+    <!-- Academics Section -->
+   <!-- Academics Section -->
+<section class="academics">
+    <div class="container">
+        <h2>Our Departments</h2>
+        <p>Explore the diverse departments that make up GS Kiziguro TSS, offering a range of academic programs to nurture and develop skills from early childhood through advanced technical training.</p>
+        
+        <div class="grid-layout">
+            
+            <!-- Department Card: Nursery -->
+            <div class="card">
+                <h3>NURSERY (Baby-Middle-Top)</h3>
+                <p>Creating a warm and safe environment where children feel at home and learn through play.</p>
+                <button onclick="showMoreInfo('nursery')">Learn More</button>
+            </div>
+            
+            <!-- Department Card: Primary -->
+            <div class="card">
+                <h3>PRIMARY (P1-P6)</h3>
+                <p>Building a foundation in essential academic skills and fostering curiosity and growth.</p>
+                <button onclick="showMoreInfo('primary')">Learn More</button>
+            </div>
+            
+            <!-- Department Card: Secondary -->
+            <div class="card">
+                <h3>SECONDARY (S1-S3)</h3>
+                <p>Providing a comprehensive education to prepare students for higher academic and vocational pursuits.</p>
+                <button onclick="showMoreInfo('secondary')">Learn More</button>
+            </div>
+            
+            <!-- Department Card: Level 3 CSA -->
+            <div class="card">
+                <h3>LEVEL 3 - CSA</h3>
+                <p>Hands-on training in computer systems administration and basic IT support.</p>
+                <button onclick="showMoreInfo('level3csa')">Learn More</button>
+            </div>
+            
+            <!-- Department Card: Level 3 SOD -->
+            <div class="card">
+                <h3>LEVEL 3 - SOD</h3>
+                <p>Introducing the basics of software development and problem-solving with code.</p>
+                <button onclick="showMoreInfo('level3sod')">Learn More</button>
+            </div>
+            
+            <!-- Department Card: Level 4 CSA -->
+            <div class="card">
+                <h3>LEVEL 4 - CSA</h3>
+                <p>Advanced studies in networking, systems management, and IT support practices.</p>
+                <button onclick="showMoreInfo('level4csa')">Learn More</button>
+            </div>
+            
+            <!-- Department Card: Level 4 SOD -->
+            <div class="card">
+                <h3>LEVEL 4 - SOD</h3>
+                <p>Developing proficiency in coding, application design, and software projects.</p>
+                <button onclick="showMoreInfo('level4sod')">Learn More</button>
+            </div>
+            
+            <!-- Department Card: Level 5 CSA -->
+            <div class="card">
+                <h3>LEVEL 5 - CSA</h3>
+                <p>In-depth training in IT infrastructure, including security and system maintenance.</p>
+                <button onclick="showMoreInfo('level5csa')">Learn More</button>
+            </div>
+            
+            <!-- Department Card: Level 5 SOD -->
+            <div class="card">
+                <h3>LEVEL 5 - SOD</h3>
+                <p>Mastering advanced software development skills, project management, and teamwork.</p>
+                <button onclick="showMoreInfo('level5sod')">Learn More</button>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Modal for Additional Information -->
+<div id="infoModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDescription"></p>
+    </div>
+</div>
+
+
+    <!-- new studend Form Section -->
+ <section id="contact-form-section">
+    <h2><u>NEW STUDENT REGISTRATION FORM</u> </h2>
+    <p>If you Want To Apply As New Student Fill That Form.</p>
+    <form id="registrationform">
+<label>Student Names :</label>
+<input type="text" id="name" name="name" placeholder="Ex@ gashema Francis">
+<br>
+<label>Family Header name :</label>
+<input type="text" id="fname" name="fname" placeholder="EX@ Mukangarambe Flida">
+<br>
+<label>Family Header ID :</label>
+<input type="number" id="id" name="id" placeholder="EX@ 1234 5678 9012 3456">
+<br>
+<label>Family Header phone Number :</label>
+<input type="number" id="number" name="number" placeholder="EX@ 0734882760">
+<br>
+<label>Which Level You Want To Apply :</label>
+<input type="text" id="level" name="level" placeholder="EX@ O Level in S2  OR Primary in P4">
+<button type="submit">Submit</button>
+      
+    </form>
+  
+    <div id="confirmationMessage"> 
+
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container footer-container">
+            <div class="useful-links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#">RP_MIS</a></li>
+                    <li><a href="#">RP E-Learning</a></li>
+                    <li><a href="#">Application Portal</a></li>
+                    <li><a href="#">E-Library</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <p>Kicukiro District, Kigali, Rwanda</p>
+                <p>Phone: +250 788 123 456</p>
+                <p>Email: info@kizigurotss.edu.rw</p>
+            </div>
+            <div class="map">
+                <section id="gs-kiziguro-map" class="container">
+                    <h2>Visit GS Kiziguro TSS</h2>
+                    <p>Explore the location of GS Kiziguro TSS on the map below for directions and nearby landmarks.</p>
+                    <div class="map-container">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26500.72140458096!2d30.4298!3d-1.6677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19d2f7e4a7c78f9b%3A0x9e564be3a0b56f14!2sGS%20Kiziguro%20TSS!5e0!3m2!1sen!2srw!4v1666643342333"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                      </iframe>
+                    </div>
+                  </section>
+                  
+
+             </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Groupe Scolaire Kiziguro TSS. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

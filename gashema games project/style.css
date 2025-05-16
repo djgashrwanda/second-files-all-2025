@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #70c5ce;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Branding */
+.branding {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.branding h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Game Container */
+.game-container {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: #a3e4f7;
+    border: 2px solid #333;
+    overflow: hidden;
+    z-index: 2;
+}
+
+/* Bird */
+#bird {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: #ffeb3b;
+    border-radius: 50%;
+    transition: top 0.1s ease;
+}
+
+/* Pipes */
+.pipe {
+    position: absolute;
+    width: 60px;
+    background-color: #4CAF50;
+    bottom: 0;
+    left: 400px;
+}
+
+.pipe-top {
+    height: 200px;
+    top: 0;
+}
+
+.pipe-bottom {
+    height: 200px;
+    bottom: 0;
+}
+
+/* Score */
+#score {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+/* Background Text */
+.background-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.05);
+    z-index: 1;
+    user-select: none;
+}

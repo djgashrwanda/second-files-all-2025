@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<!-- saved from url=(0083)https://cdpn.io/Mutegwamaso-Mclementine/fullpage/OJKpwyr?nocache=true&view=fullpage -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  
+
+    <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+    <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111">
+
+
+
+  
+    <script src="./stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js.download"></script>
+
+
+  <title>CodePen - gash game</title>
+
+    <link rel="canonical" href="https://codepen.io/Mutegwamaso-Mclementine/pen/OJKpwyr">
+  
+  
+  
+  
+<style>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+#game-info {
+    margin: 10px;
+    font-size: 18px;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.tile.selected {
+    background-color: #ffcc00;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+</head>
+
+<body translate="no">
+  
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triple Tiles Game</title>
+    <link rel="stylesheet" href="./styles.css">
+
+
+    <h1>Triple Tiles Game</h1>
+
+    <div id="game-info">
+        <p>Score: <span id="score">0</span></p>
+        <p>Level: <span id="level">1</span></p>
+        <p>Time Left: <span id="timer">0</span> seconds</p>
+    </div>
+
+    <div id="game-board"><div class="tile" data-type="🍒">🍒</div><div class="tile" data-type="🍓">🍓</div><div class="tile" data-type="🍒">🍒</div><div class="tile" data-type="🍒">🍒</div><div class="tile" data-type="🍉">🍉</div><div class="tile" data-type="🍇">🍇</div><div class="tile" data-type="🍒">🍒</div><div class="tile" data-type="🍌">🍌</div><div class="tile" data-type="🍍">🍍</div><div class="tile" data-type="🍇">🍇</div></div>
+    <div id="message">Game Over!</div>
+
+    <button id="next-level" style="display: none;">Next Level</button>
+    <button id="restart-game" style="display: block;">Restart Game</button>
+
+    <script src="./script.js.download"></script>
+
+
+  
+      <script id="rendered-js">
+const gameBoard = document.getElementById('game-board');
+const messageDiv = document.getElementById('message');
+const scoreDisplay = document.getElementById('score');
+const levelDisplay = document.getElementById('level');
+const timerDisplay = document.getElementById('timer');
+const nextLevelBtn = document.getElementById('next-level');
+const restartBtn = document.getElementById('restart-game');
+
+let selectedTiles = [];
+let tiles = [];
+let tileTypes = ['🍎', '🍌', '🍇', '🍉', '🍓', '🍒', '🍍', '🥥']; // Extended tile types
+let score = 0;
+let level = 1;
+let timeLeft = 60;
+let timerInterval;
+
+// Initialize the game board
+function initGameBoard() {
+  gameBoard.innerHTML = ''; // Clear the board
+  messageDiv.textContent = ''; // Clear message
+  selectedTiles = [];
+  tiles = [];
+
+  // Increase difficulty by increasing the number of tiles
+  const tileCount = 8 + level * 2; // More tiles as levels progress
+  const gridSize = Math.sqrt(tileCount);
+
+  gameBoard.style.gridTemplateColumns = `repeat(${gridSize}, 100px)`;
+  gameBoard.style.gridTemplateRows = `repeat(${gridSize}, 100px)`;
+
+  for (let i = 0; i < tileCount; i++) {
+    const tile = document.createElement('div');
+    tile.classList.add('tile');
+
+    // Assign a random tile type (fruit emoji)
+    const randomTileType = tileTypes[Math.floor(Math.random() * tileTypes.length)];
+    tile.dataset.type = randomTileType;
+    tile.textContent = randomTileType;
+
+    // Add click event listener to each tile
+    tile.addEventListener('click', () => handleTileClick(tile));
+
+    gameBoard.appendChild(tile);
+    tiles.push(tile);
+  }
+
+  startTimer(); // Start the timer
+}
+
+// Handle tile click
+function handleTileClick(tile) {
+  if (selectedTiles.length < 3 && !tile.classList.contains('selected')) {
+    tile.classList.add('selected');
+    selectedTiles.push(tile);
+
+    // Check if we have selected 3 tiles
+    if (selectedTiles.length === 3) {
+      checkMatch();
+    }
+  }
+}
+
+// Check if the selected tiles match
+function checkMatch() {
+  const [tile1, tile2, tile3] = selectedTiles;
+
+  if (tile1.dataset.type === tile2.dataset.type && tile2.dataset.type === tile3.dataset.type) {
+    messageDiv.textContent = 'Match found!';
+    score += 10; // Add points
+    scoreDisplay.textContent = score;
+    clearTiles();
+  } else {
+    messageDiv.textContent = 'No match, try again.';
+    resetSelection();
+  }
+}
+
+// Clear the matched tiles
+function clearTiles() {
+  selectedTiles.forEach(tile => {
+    tile.classList.remove('selected');
+    tile.textContent = '';
+    tile.dataset.type = ''; // Clear the tile type
+  });
+  selectedTiles = [];
+
+  // Check if all tiles are cleared for the next level
+  if (tiles.every(tile => tile.dataset.type === '')) {
+    messageDiv.textContent = 'Level Complete!';
+    clearInterval(timerInterval);
+    nextLevelBtn.style.display = 'block';
+  }
+}
+
+// Reset the selected tiles if no match
+function resetSelection() {
+  selectedTiles.forEach(tile => tile.classList.remove('selected'));
+  selectedTiles = [];
+}
+
+// Start the game timer
+function startTimer() {
+  timeLeft = 60 - level * 5; // Decrease time with levels
+  timerDisplay.textContent = timeLeft;
+
+  timerInterval = setInterval(() => {
+    timeLeft--;
+    timerDisplay.textContent = timeLeft;
+
+    if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      messageDiv.textContent = 'Game Over!';
+      restartBtn.style.display = 'block';
+    }
+  }, 1000);
+}
+
+// Move to the next level
+nextLevelBtn.addEventListener('click', () => {
+  level++;
+  levelDisplay.textContent = level;
+  nextLevelBtn.style.display = 'none';
+  initGameBoard();
+});
+
+// Restart the game
+restartBtn.addEventListener('click', () => {
+  score = 0;
+  level = 1;
+  scoreDisplay.textContent = score;
+  levelDisplay.textContent = level;
+  restartBtn.style.display = 'none';
+  initGameBoard();
+});
+
+// Initialize the game
+initGameBoard();
+//# sourceURL=pen.js
+    </script>
+
+  
+
+
+
+</body></html>

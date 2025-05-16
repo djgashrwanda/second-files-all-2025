@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GS Kiziguro TSS - Education for All, offering primary to TVET education programs.">
+    <meta name="keywords" content="GS Kiziguro, education, primary school, secondary school, TVET, Rwanda">
+    <meta name="author" content="Gashema Francis">
+    <title>GS Kiziguro TSS - Education for All</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://i.ibb.co/k09bwVg/channels4-profile.jpg" alt="GS Kiziguro TSS Logo">
+                <h1>GS Kiziguro TSS</h1>
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#updates">Updates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section (Background Image and Welcome Text) -->
+    <section id="background-section">
+        <div class="overlay">
+            <h1>Welcome to GS Kiziguro TSS</h1>
+            <p>Providing quality education for all levels from primary to TVET.</p>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- About Us Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Learn more about our principles, mission, and values.</p>
+            <button id="principles-btn">Our Principles</button>
+            <div id="principles-more" class="more-content" style="display: none;">Our principles include...</div>
+
+            <button id="mission-btn">Our Mission</button>
+            <div id="mission-more" class="more-content" style="display: none;">Our mission is to...</div>
+
+            <button id="values-btn">Our Values</button>
+            <div id="values-more" class="more-content" style="display: none;">Our values include...</div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+                
+                <label for="contact">Email or Phone Number</label>
+                <input type="text" id="contact" required>
+                
+                <label for="description">Description</label>
+                <textarea id="description" rows="5" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+            <div id="confirmationMessage"></div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Made by Gashema Francis</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

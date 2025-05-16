@@ -1,0 +1,161 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container for the header */
+  header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Logo Section */
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    color: #333;
+    margin-left: 10px;
+  }
+  
+  /* Navigation Menu */
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  
+  .nav-links a:hover {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+  }
+   
+  /* Language Switcher */
+  #google_translate_element {
+    font-size: 16px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  #google_translate_element:hover {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+  }
+  
+  /* Hamburger Menu for Small Devices */
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    /* Logo and Navigation */
+    .logo {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav-links {
+      display: none; /* Hide the nav links by default */
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+  
+    .nav-links li {
+      display: block;
+    }
+  
+    nav {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .logo h1 {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  
+    /* Show hamburger menu */
+    .hamburger {
+      display: flex;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  
+    .nav-links.show {
+      display: flex; /* Show the nav when toggled */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Adjust logo size */
+    .logo img {
+      max-width: 80px;
+    }
+  
+    .logo h1 {
+      font-size: 18px;
+    }
+  
+    .nav-links a {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
